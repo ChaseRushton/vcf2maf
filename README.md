@@ -55,6 +55,4 @@ python vcf2maf.py --input-vcf input.vcf --output-maf output.maf --vep-path /path
 python maf2vcf.py --input-maf input.maf --output-vcf output.vcf
 ```
 
-## License
 
-Apache License 2.0
