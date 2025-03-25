@@ -1,0 +1,16 @@
+##fileformat=VCFv4.2
+##fileDate=20250325
+##source=TestData
+##reference=GRCh38
+##contig=<ID=1,length=248956422>
+##contig=<ID=2,length=242193529>
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	TUMOR	NORMAL
+1	14397	rs730881746	C	T	.	PASS	DP=37;AF=0.5	GT:AD:DP	0/1:18,19:37	0/0:30,0:30
+1	14419	.	G	A	.	PASS	DP=42;AF=0.45	GT:AD:DP	0/1:23,19:42	0/0:35,0:35
+2	19190	rs8176273	G	A	.	PASS	DP=28;AF=0.75	GT:AD:DP	1/1:7,21:28	0/0:25,0:25
+2	33141	.	T	C	.	PASS	DP=31;AF=0.35	GT:AD:DP	0/1:20,11:31	0/0:28,0:28
